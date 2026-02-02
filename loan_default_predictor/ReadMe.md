@@ -1,3 +1,11 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-brightgreen)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-orange)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Classification-red)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Loan%20Default-yellow)
+![Model](https://img.shields.io/badge/Model-Logistic%20Regression-purple)
+![Status](https://img.shields.io/badge/Project-Beginner%20Friendly-success)
+
 # Bank Loan Default Predictor
 
 This is a machine learning mini project that predicts whether a customer is
@@ -69,3 +77,4 @@ This project helped me learn:
 - How to save and load models for reuse  
 
 ---
+
