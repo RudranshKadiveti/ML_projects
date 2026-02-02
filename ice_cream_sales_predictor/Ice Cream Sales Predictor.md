@@ -1,142 +1,88 @@
-**Ice Cream Sales Predictor**
+# Ice Cream Sales Predictor
 
+This is a small machine learning project built while learning the fundamentals of machine learning.
 
+The goal of this project is to **predict ice cream sales based on temperature and season**.
 
-This is a small machine learning project I built while learning the basics of ML.  
+The project is designed to be simple, easy to understand, and still realistic.
+A synthetic dataset was created using real-world patterns, and a regression model was trained on it.
 
-GOAL: predict ice cream sales based on the temperature and the season.
+---
 
+## Project Structure
 
+| File                           | Description                                       |
+| ------------------------------ | ------------------------------------------------- |
+| `ice_cream_sales.csv`          | Dataset containing Temperature, Season, and Sales |
+| `ice_cream_trainer.py`         | Trains the model and saves it                     |
+| `evaluator_ice_cream.py`       | Evaluates the model and displays a graph          |
+| `sales_predictor.py`           | Accepts user input and predicts sales             |
+| `ice_cream_sales_predictor.md` | Project documentation (this file)                 |
 
-I wanted to make something easy to understand, but still realistic and useful.  
+---
 
-So I created a dataset with real-world patterns and trained a model on it.
+## Dataset Overview
 
+The dataset contains **2,875 rows** with the following columns:
 
+* **Temperature** – Temperature in degrees Celsius (°C)
+* **Season** – Encoded as:
 
+  * `0` → Winter
+  * `1` → Spring
+  * `2` → Summer
+  * `3` → Autumn
+* **Sales** – Number of ice creams sold
 
+### Data Logic
 
- **Files in this Project**
+The dataset is synthetic, but follows realistic trends:
 
+* As **temperature increases**, sales generally increase
+* **Summer** has the highest sales
+* **Winter** has the lowest sales
 
+---
 
+## Model Used
 
+A **Linear Regression** model from `scikit-learn` is used.
 
-**ice\_cream\_sales.csv**  -  The dataset (Temperature, Season, Sales) 
+The model learns a simple relationship between the inputs and the output:
 
-**ice \_cream\_trainer.py** - Trains the model and saves it 
-
-**evaluator\_ice\_cream.py** - Tests the model and shows a graph 
-
-**sales\_predictor.py** - Lets you enter new values and get predictions 
-
-**ice\_cream\_sales\_predictor.md**  - This file 
-
-
-
-
-
-
-
- **About the Dataset**
-
-
-
-The dataset has 2,875 rows and three columns:
-
-
-
-\- Temperature – temperature in °C  
-
-\- Season 
-
-&nbsp; - 0 = Winter  
-
-&nbsp; - 1 = Spring  
-
-&nbsp; - 2 = Summer  
-
-&nbsp; - 3 = Autumn  
-
-\- Sales – number of ice creams sold  
-
-
-
-The data is synthetic, but it follows realistic logic:
-
-\- When the temperature goes up, sales usually increase  
-
-\- Summer has the highest sales  
-
-\- Winter has the lowest  
-
-
-
-
-
-
-
- **Model Used**
-
-
-
-I used a Linear Regression model from scikit-learn.
-
-
-
-The model learns a simple relationship like:
-
-
-
+```
 Sales ≈ Temperature + Season
+```
 
+---
 
+## Example Prediction
 
+**Input**
 
+```
+Temperature: 30
+Season: 2
+```
 
-**Example**
+**Output**
 
+```
+Predicted Sales: 228
+```
 
+---
 
-Input:  
+## What I Learned
 
-Temperature: 30  
+This project helped me understand:
 
-Season: 2  
+* How to load and process datasets
+* How to train a machine learning model
+* How to evaluate model performance using **MSE** and **R²**
+* How to visualize predictions
+* How to save and reuse trained models
 
+---
 
-
-**Output**:  
-
-Predicted Sales: 228  
-
-
-
-
-
-**What I Learned**
-
-
-
-This project helped me learn:
-
-\- How to load and work with data  
-
-\- How to train a machine learning model  
-
-\- How to check model accuracy using MSE and R²  
-
-\- How to visualize predictions  
-
-\- How to save and reuse trained models  
-
-
-
-
-
-
-
-
-
-
-
+This project represents my first step into applied machine learning.
