@@ -1,3 +1,13 @@
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-brightgreen)
+![NumPy](https://img.shields.io/badge/NumPy-Scientific%20Computing-orange)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Regression-red)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-purple)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Sales%20Prediction-yellow)
+![Model](https://img.shields.io/badge/Model-Linear%20Regression-blueviolet)
+![Status](https://img.shields.io/badge/Project-Beginner%20Friendly-success)
+
+
 # Ice Cream Sales Predictor
 
 This is a small machine learning project built while learning the fundamentals of machine learning.
@@ -86,3 +96,4 @@ This project helped me understand:
 ---
 
 This project represents my first step into applied machine learning.
+
